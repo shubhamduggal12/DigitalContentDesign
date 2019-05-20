@@ -7,14 +7,12 @@
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
-
 /* Slideshow container */
 .slideshow-container {
     max-width: 1000px;
 position: relative;
 margin: auto;
 }
-
 /* Next & previous buttons */
 .prev, .next {
 cursor: pointer;
@@ -30,18 +28,15 @@ transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
 }
-
 /* Position the "next button" to the right */
 .next {
 right: 0;
     border-radius: 3px 0 0 3px;
 }
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
 }
-
 /* Caption text */
 .text {
 color: #f2f2f2;
@@ -52,7 +47,6 @@ bottom: 8px;
 width: 100%;
     text-align: center;
 }
-
 /* Number text (1/3 etc) */
 .numbertext {
 color: #f2f2f2;
@@ -61,7 +55,6 @@ padding: 8px 12px;
 position: absolute;
 top: 0;
 }
-
 /* The dots/bullets/indicators */
 .dot {
 cursor: pointer;
@@ -73,11 +66,9 @@ margin: 0 2px;
 display: inline-block;
 transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
     background-color: #717171;
 }
-
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
@@ -85,17 +76,14 @@ transition: background-color 0.6s ease;
     animation-name: fade;
     animation-duration: 1.5s;
 }
-
 @-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
 }
-
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
 }
-
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
@@ -105,7 +93,7 @@ transition: background-color 0.6s ease;
 <body>
 
 <div class="slideshow-container">
-
+<div>Screenshots:</div>
 <div class="mySlides fade">
 <div class="">1 / 11</div>
 <img src="1.jpg" style="width:100%">
@@ -183,18 +171,25 @@ transition: background-color 0.6s ease;
 <span class="dot" onclick="currentSlide(11)"></span>
 </div>
 
+
+
+<div class="slideshow-container">
+<div>Working Model:</div>
+<video controls autoplay>
+<source src="movie.mp4" type="video/mp4">
+<source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
-
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
-
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
@@ -214,3 +209,4 @@ function showSlides(n) {
 
 </body>
 </html>
+
