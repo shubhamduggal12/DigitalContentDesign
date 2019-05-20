@@ -96,58 +96,58 @@ transition: background-color 0.6s ease;
 <div>Screenshots:</div>
 <div class="mySlides fade">
 <div class="">1 / 11</div>
-<img src="1.jpg" style="width:100%">
+<img src="1.JPG" style="width:100%">
 
 </div>
 
 <div class="mySlides fade">
 <div class="">2 / 11</div>
-<img src="2.jpg" style="width:100%">
+<img src="2.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">3 / 11</div>
-<img src="3.jpg" style="width:100%">
+<img src="3.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">4 / 11</div>
-<img src="4.jpg" style="width:100%">
+<img src="4.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">5 / 11</div>
-<img src="5.jpg" style="width:100%">
+<img src="5.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">6 / 11</div>
-<img src="6.jpg" style="width:100%">
+<img src="6.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">7 / 11</div>
-<img src="7.jpg" style="width:100%">
+<img src="7.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">8 / 11</div>
-<img src="8.jpg" style="width:100%">
+<img src="8.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">9 / 11</div>
-<img src="9.jpg" style="width:100%">
+<img src="9.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">10 / 11</div>
-<img src="10.jpg" style="width:100%">
+<img src="10.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">11 / 11</div>
-<img src="11.jpg" style="width:100%">
+<img src="11.JPG" style="width:100%">
 </div>
 
 
