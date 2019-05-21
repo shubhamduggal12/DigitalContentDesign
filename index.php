@@ -173,14 +173,7 @@ transition: background-color 0.6s ease;
 
 
 
-<div class="slideshow-container">
-<div>Working Model:</div>
-<video controls autoplay>
-<source src="movie.mp4" type="video/mp4">
-<source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video>
-</div>
+
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
