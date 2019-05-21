@@ -93,7 +93,7 @@ transition: background-color 0.6s ease;
 </head>
 <body>
 
-<div class="slideshow-container">
+<div class="slideshow-container" id="screenshots">
 <div>Screenshots:</div>
 <div class="mySlides fade">
 <div class="">1 / 11</div>
@@ -173,7 +173,11 @@ transition: background-color 0.6s ease;
 </div>
 
 
-
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
 
 <script>
 var slideIndex = 1;
