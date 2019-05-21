@@ -9,7 +9,6 @@ body {font-family: Verdana, sans-serif; margin:0}
 img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
 position: relative;
 margin: auto;
 }
@@ -94,7 +93,7 @@ transition: background-color 0.6s ease;
 <body>
 
 <div class="slideshow-container" id="screenshots">
-<div>Screenshots:</div>
+    <div>Screenshots:</div>
 <div class="mySlides fade">
 <div class="">1 / 11</div>
 <img src="1.JPG" style="width:100%">
@@ -172,13 +171,15 @@ transition: background-color 0.6s ease;
 <span class="dot" onclick="currentSlide(11)"></span>
 </div>
 
-
-<video width="320" height="240" controls>
+<div class="slideshow-container" id="screenshots">
+    <div>Working Model:</div>
+<video controls>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
 Your browser does not support the video tag.
 </video>
-
+    </div>
+    </div>
 <script>
 var slideIndex = 1;
 showSlides(slideIndex);
