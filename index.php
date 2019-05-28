@@ -95,61 +95,90 @@ transition: background-color 0.6s ease;
 <div class="slideshow-container" id="screenshots">
     <div>Screenshots:</div>
 <div class="mySlides fade">
-<div class="">1 / 11</div>
+<div class="">1 / 17</div>
 <img src="1.JPG" style="width:100%">
 
 </div>
 
 <div class="mySlides fade">
-<div class="">2 / 11</div>
+<div class="">2 / 17</div>
 <img src="2.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-<div class="">3 / 11</div>
+<div class="">3 / 17</div>
 <img src="3.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-<div class="">4 / 11</div>
+<div class="">4 / 17</div>
 <img src="4.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-<div class="">5 / 11</div>
+<div class="">5 / 17</div>
 <img src="5.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-<div class="">6 / 11</div>
+<div class="">6 / 17</div>
 <img src="6.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-<div class="">7 / 11</div>
+<div class="">7 / 17</div>
 <img src="7.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-<div class="">8 / 11</div>
+<div class="">8 / 17</div>
 <img src="8.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-<div class="">9 / 11</div>
+<div class="">9 / 17</div>
 <img src="9.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-<div class="">10 / 11</div>
+<div class="">10 / 17</div>
 <img src="10.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
-<div class="">11 / 11</div>
+<div class="">11 / 17</div>
 <img src="11.JPG" style="width:100%">
 </div>
 
+<div class="mySlides fade">
+<div class="">12 / 17</div>
+<img src="12.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<div class="">13 / 17</div>
+<img src="13.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<div class="">14 / 17</div>
+<img src="14.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<div class="">15 / 17</div>
+<img src="15.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<div class="">16 / 17</div>
+<img src="16.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+<div class="">17 / 17</div>
+<img src="17.JPG" style="width:100%">
+</div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -169,6 +198,12 @@ transition: background-color 0.6s ease;
 <span class="dot" onclick="currentSlide(9)"></span>
 <span class="dot" onclick="currentSlide(10)"></span>
 <span class="dot" onclick="currentSlide(11)"></span>
+<span class="dot" onclick="currentSlide(12)"></span>
+<span class="dot" onclick="currentSlide(13)"></span>
+<span class="dot" onclick="currentSlide(14)"></span>
+<span class="dot" onclick="currentSlide(15)"></span>
+<span class="dot" onclick="currentSlide(16)"></span>
+<span class="dot" onclick="currentSlide(17)"></span>
 </div>
 
 <div class="slideshow-container" id="screenshots">
