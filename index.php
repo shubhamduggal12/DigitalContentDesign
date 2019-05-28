@@ -152,32 +152,32 @@ transition: background-color 0.6s ease;
 
 <div class="mySlides fade">
 <div class="">12 / 17</div>
-<img src="12.JPG" style="width:100%">
+<img src="Admin_1.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">13 / 17</div>
-<img src="13.JPG" style="width:100%">
+<img src="Admin_2.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">14 / 17</div>
-<img src="14.JPG" style="width:100%">
+<img src="Admin_3.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">15 / 17</div>
-<img src="15.JPG" style="width:100%">
+<img src="Admin_4.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">16 / 17</div>
-<img src="16.JPG" style="width:100%">
+<img src="Admin_5.JPG" style="width:100%">
 </div>
 
 <div class="mySlides fade">
 <div class="">17 / 17</div>
-<img src="17.JPG" style="width:100%">
+<img src="Admin_6.JPG" style="width:100%">
 </div>
 
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
